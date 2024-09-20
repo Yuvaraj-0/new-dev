@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover; /* For Safari/Chrome */
+    -moz-background-size: cover;    /* For Firefox */
+    -o-background-size: cover;      /* For older Opera versions */
+    background-size: cover;         /* Standard property */
+    font-family: sans-serif;
+}
+.logtag{
+    color: rgb(157, 147, 6);
+    text-align: center;
+}
+h3{
+    font-weight:bold;
+}
+.mybox{
+    background-color: azure;
+    color: rgb(9, 91, 135);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 80px 40px;
+    border-radius: 50px;
+    width: 40%;
+    text-align: center;
+    
+}
+.userimg{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    padding-right: 100%;
+   
+}
+input[type="text"],[type="password"],[type="email"]{
+    background-color: rgb(255, 255, 255);
+    color: rgb(23, 159, 5);
+    border: none;
+    border-bottom-style: groove;
+    width: 250px;
+    height: 100;
+    font-size: medium;
+    text-align: center;
+}
+ input[type="submit"]
+ {
+    height: 40px;
+    width: 240px;
+    color: aliceblue;
+    background-color: rgb(43, 243, 243);
+    font-size: large;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    
+ }
+ input[type="submit"]:hover{
+    cursor:cell;
+    background:aquamarine;
+ }
+ .h{
+    padding-left: 11%;
+    
+ }
+ div{
+    padding-left: 1%;
+}
+a{
+    padding-left: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+}
